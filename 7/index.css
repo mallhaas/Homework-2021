@@ -1,0 +1,160 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: #161616da;
+    color: #faf5e8;
+  }
+
+.background {
+position: relative;
+font-family: 'Ubuntu', sans-serif;
+width: 1280px;
+height: 1024px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+    float: left;
+  }
+  
+  a {
+    display: block;
+    border-block-start-color: #faf5e8;
+    padding: 25px;
+    color: #faf5e8;
+    text-decoration: none;
+  }
+
+ a:hover {
+    background-color: rgba(100, 97, 93, 0.534);
+  }
+
+
+.logoname {
+    position: absolute;
+    left: 170px;
+    top: 0px;
+    font-size: 90px;
+    font-weight: bolder;
+    }
+  
+  .image-cropper {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    top: 100px;
+    left: 30px;
+  }
+  
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+
+  .shops {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    font-size: 20px;
+  }
+
+  .shopy {
+    position: absolute;
+    top: 0px;
+    right: 100px;
+  }
+
+  /* Left side below*/
+
+.left {
+    position: absolute;
+    top: 270px;
+    left: 40px;
+}
+
+.container > p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+  button {
+         background-color:#161616da;
+         width: 100%;
+          color: #faf5e8;
+          padding: 15px;
+          margin: 10px 0px;
+          border: none;
+          cursor: pointer;
+           }
+   input[type=text], input[type=password] {
+          width: 100%;
+          margin: 8px 0;
+          padding: 12px 20px;
+          display: inline-block;
+          border: 2px solid green;
+          box-sizing: border-box;
+      }
+   button:hover {
+          opacity: 0.7;
+      }
+    .cancelbtn {
+          width: auto;
+          padding: 10px 18px;
+          margin: 10px 5px;
+      }
+
+      .container {
+        padding: 25px;
+        background-color: #202020da;
+        width:700px;
+    }
+
+    .image-facebook{
+        width:25px;
+        height:25px;
+    }
+    .button-container{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding-right:5px;
+    }
+    .image-facebook {
+        align-items:center;
+        width: 20px 20px;
+        padding-right: 20px;
+    }
+    .facebookbtn{
+        padding-right:5px
+    }
+
+/*right side below*/
+
+.right{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    width: 300px 400px;
+}
+
+    .calendar{
+        position: relative;
+        border-width: 0px;
+        width: 650px; 
+        height: 400px;
+    }
+
+    .youtube {
+        width: 650px;
+        height: 350px;
+        position: relative;
+    }

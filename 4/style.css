@@ -1,0 +1,79 @@
+.content {
+    width: 900px;
+    height: 900px;
+    border: 4px black solid;
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.card_description-title {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    background-color: rgba(204, 202, 202, 0.822);
+    margin-top: 0%;
+    padding-top: 25px;
+}
+
+.card__description-price {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.card__description-shipping {
+    color: gray;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card__description-description {
+    margin: 30px 0px 20px;
+}
+
+a {
+    color: black;
+}
+
+.card__description-info {
+    margin: 0px 0px 30px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    position: relative;
+    padding-left: 20px;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    position: absolute;
+    background-color: rgba(204, 202, 202, 0.822);
+    width: 100%;
+    height: 80px;
+    padding: 30px;
+    font-size: 20px;
+    bottom: 0%;
+}
+
+button:hover {
+    background-color: gray;
+}

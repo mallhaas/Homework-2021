@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'AvenirNextLTPro-Regular';
+    src: url("AvenirNextLTPro-Regular.otf") format("opentype");
+}
+
+.landing_page {
+    position: relative;
+    width: 1440px;
+    height: 4042px;
+    background-color: white;
+    font-family: 'AvenirNextLTPro-Regular';
+}
+
+.header {
+    position: relative;
+    width: 1503px;
+    height: 860px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_navbar img {
+    position: relative;
+    Width: 135.69px;
+    Height: 38.22px;
+    top: 42.47px;
+    left: 140.91px;
+}
+
+.header_navbar ul {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: absolute;
+    height: 12px;
+    left: 70.46%;
+    right: 25.95%;
+    top: calc(50% - 12px/2 - 371px);
+}
+
+.header_content-text {
+    position: absolute;
+    left: 9.38%;
+    right: 57.99%;
+    top: 37.53%;
+    bottom: 30.25%;
+}
+
+.header_content-text h3 {
+    font-weight: 500px;
+    font-size: 16px;
+    color: #2557AB;
+}
+
+.header_content-text-title {
+    position: absolute;
+    height: 63px;
+    width: 423px;
+    left: 0px;
+    margin-top: 15px;
+}
+
+.header_content-text h2 {
+    color: #13253A;
+    position: absolute;
+    height: 63px;
+    left: 0%;
+    right: 13.77%;
+    top: calc(50% - 63px/2 - 80.06px);
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 63px;
+    letter-spacing: -1px;
+}
+
+.header_content-text p {
+    position: absolute;
+    left: 0%;
+    right: 4.19%;
+    top: 36.09%;
+    bottom: 34.68%;
+    font-size: 16px;
+    line-height: 27px;
+    color: #13253A;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+}
+
+.header_content img {
+    position: absolute;
+    width: 592.98px;
+    height: 437.74px;
+    left: 767.34px;
+    top: 232.92px;
+}
+
+.header_content button {
+    position: absolute;
+    left: 0%;
+    right: 28.51%;
+    top: 77.01%;
+    bottom: 0%;
+    background-color: #FF7F57;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.services {
+    position: absolute;
+    width: 1170px;
+    height: 306px;
+    left: 159px;
+    top: 928px;
+}
+
+.services_title p {
+    position: absolute;
+    top: -20px;
+    height: 22px;
+    width: 94px;
+    left: 526px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2557AB;
+}
+
+.services_title h2 {
+    position: absolute;
+    top: -10px;
+    left: 15.21%;
+    right: 18.97%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #13253A;
+    Width: 770px;
+    Height: 52px;
+}
+
+.services_group {
+    position: absolute;
+    width: 1140px;
+    height: 197px;
+    top: 109px;
+    left: 10px;
+
+}
+
+.services_items h3 {
+font-weight: bold;
+font-size: 20px;
+line-height: 27px;
+color: #3B4D6C;
+}
+
+.services_items_box {
+    width: 350px;
+    height: 197px;
+    position: relative;
+    float: right;
+    top: -21px;
+    left: -35px;
+    margin: 5px;
+
+}
+
+
+.services li {
+    width: 370px;
+    height: 197px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    text-align: center;
+}
+
+.services li img {
+height: 64px;
+width: 64px;
+left: 954px;
+top: 109px;
+border-radius: 0px;
+}
+
+
+.services_items-p {
+  Width: 350px;
+  Height: 74.01px;
+}
+
+.services_items p {
+    font-size: 16px;
+    line-height: 27px;
+    color: #13253A;
+    opacity: 0.9;
+}
+
+
+.kpi_background {
+    position: absolute;
+    top: 1336px;
+    width: 1440px;
+    height: 205px;
+    background: #F4F6F7;
+    left: 30px;
+    
+}
+
+.kpi {
+    position: absolute;
+    width: 1090px;
+    height: 105px;
+    top: 20px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.kpi_item {
+    position: relative;
+    width: 211px;
+    height: 85px;
+}
+
+.kpi_item-txt {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2557AB;
+    top: -70px;
+}
+
+.kpi_item-nr {
+    font-size: 46px;
+    color: #13253A;
+    position: relative;
+    top: -40px;
+}
+
+
